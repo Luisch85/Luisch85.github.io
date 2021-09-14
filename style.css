@@ -1,0 +1,175 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    background: #3a3d47;
+}
+
+#contenedor{
+    width: 1200px;
+    margin: auto;
+    /*order-radius: 30px;*/
+}
+
+#menu-Logo{
+    display: block;
+    margin-top: 3%;
+    margin-left: 3%;
+    margin-bottom: 2%;
+    margin-right: 20%;
+    float: left;
+
+}
+
+#menu{
+    background: #1551a1 ;
+    overflow: hidden;
+}
+
+#menu ul li{
+    float: left;
+    list-style: none;
+    padding: 10px;
+    margin-top: 3%;
+    border: white 2px solid;
+}
+#menu ul li a{
+    color: white;
+    text-decoration: none;
+    
+}
+
+#menu ul li:hover{
+    background: #013981 ;
+}
+
+#imgMenu{
+    width: 1200px;
+    /*height: auto;*/
+
+}
+
+
+#titulo{
+    background: white;
+    color: #ff7600;
+    text-align: center;
+    
+}
+
+#titulo h1{
+    padding: 15px;
+}
+
+
+
+#cuerpo{
+    background: white;
+    overflow: hidden;
+    text-align: center;
+    
+}
+
+
+.servicios{
+    position: relative;
+    float: left;
+    width: 30%;
+    height: 550px;
+    border: 1px solid black;
+    margin: 1.5% ;
+
+}
+
+.imgServicios{
+    float: left;
+    width: 100%;
+}
+
+.servicios h2{
+    background: #1551a1;
+    color: white;
+    padding: 15px;
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.servicios p{
+    text-align: justify;
+    margin: 15px;
+
+    
+}
+
+.servicios button{
+    clear: none;
+    display: block;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 15px 0;
+    border: 0px;
+    border-radius: 5px;
+    background: #1551a1;
+    color: white;
+    height: 40px;
+    width: 100px;
+    position: absolute;
+    bottom: 1%;
+    left: 33.33%;
+   
+}
+
+.servicios button:hover{
+    background: #013981 ;
+}
+
+footer{
+    background: #062348;
+    overflow: hidden;
+    color: white;
+}
+
+footer p{
+    margin-top: 15px;
+    margin-left: 30px;
+    margin-bottom: 35px;
+}
+
+#izq{
+    float: left;
+    width: 50%;
+    margin-top: 20px;
+    text-align: left;
+}
+
+#imgPie{
+    display: block;
+    margin: auto;
+    padding: 15px;
+}
+
+#der{
+    float: right;
+    width: 50%;
+    margin-top: 20px;
+    text-align: center;
+    padding: 15px;
+}
+
+#der h3{
+    margin-top: 30px;
+   
+    margin-bottom: 15px;
+}
+
+.imgRedes:hover{
+    opacity: .7;
+}
+
+
